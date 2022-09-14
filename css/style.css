@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to right, blanchedalmond,royalblue );
+  background: linear-gradient(to right, blanchedalmond, royalblue);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -15,32 +15,6 @@ body {
   color: #483838;
   text-decoration: none;
 }
-.tombol-10Friends {
-  background-color: blanchedalmond;
-  color: #483838;
-  border-radius: 20px;
-  padding: 15px 5px;
-  width: 150px;
-  box-shadow: 0px 0px 10px 3px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.tombol-10Friends a {
-  padding: 15px 25px;
-}
-
-.tombol-5Friends {
-  background-color: blanchedalmond;
-  color: #483838;
-  border-radius: 20px;
-  padding: 15px 5px;
-  width: 120px;
-  box-shadow: 0px 0px 10px 3px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 
 img {
   margin-top: 30px;
@@ -92,25 +66,6 @@ img {
   color: #483838;
 }
 
-.my-spotify h2 {
-  font-size: 20px;
-  border-radius: 20px;
-  text-align: left;
-  padding: 30px;
-  margin: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  height: 20px;
-  box-shadow: 0px 0px 10px 3px;
-  background: lightgoldenrodyellow;
-}
-
-.my-spotify a {
-  text-decoration: none;
-  color: #483838;
-}
-
 .title {
   text-align: center;
 }
@@ -127,11 +82,11 @@ td:hover {
 }
 
 th:hover {
-  background-color: blue;
+  background-color: brown;
 }
 
 .kepala-tabel {
-  background-color: whitesmoke;
+  background-color: burlywood;
 }
 
 .tabel {
@@ -139,6 +94,86 @@ th:hover {
   width: 100%;
 }
 
+.tombol-10Friends {
+  background-color: lightgoldenrodyellow;
+  color: #483838;
+  border-radius: 20px;
+  padding: 15px 5px;
+  width: 120px;
+  box-shadow: 0px 0px 10px 3px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tombol-10Friends a {
+  padding: 15px 25px;
+}
+
+.tombol-5Friends-CSS {
+  background-color: lightgoldenrodyellow;
+  color: #483838;
+  border-radius: 20px;
+  padding: 15px 5px;
+  width: 120px;
+  box-shadow: 0px 0px 10px 3px;
+  margin-right: 450px;
+  margin-top: -48px;
+  margin-left: auto;
+}
+
+.tombol-5Friends-CSS a {
+  padding: 15px 25px;
+}
+
+.tombol-10Friends-jquery {
+  background-color: lightgoldenrodyellow;
+  color: #483838;
+  border-radius: 20px;
+  padding: 15px 5px;
+  width: 145px;
+  box-shadow: 0px 0px 10px 3px;
+  margin-right: 450px;
+  margin-top: -48px;
+  margin-left: 429px;
+}
+
+.tombol-10Friends-jquery a {
+  padding: 15px 25px;
+}
+
+.tombol-back-bestie {
+  margin-top: 40px;
+}
+
+.tombol-back-10Friends a {
+  background-color: orangered;
+  font-size: 20px;
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.tombol-back-10Friends a:hover {
+  background-color: orangered;
+}
+
+.tombol-back-5Friends-css {
+  margin-top: 40px;
+}
+
+.tombol-back-5Friends-css a {
+  background-color: orangered;
+  font-size: 20px;
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.tombol-back-5Friends-css a:hover {
+  background-color: orangered;
+}
 
 .ngubah {
   background-color: #e4d1b9;
