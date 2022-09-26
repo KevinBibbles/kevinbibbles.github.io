@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to right, #EA2027, #F79F1F);
+  background: url('44738.jpg');
   font-family: "Franklin Gothic Medium", "Arial Narrow", monospace;, sans-serif;
 }
 
@@ -100,6 +100,7 @@ img {
 
 .title {
   text-align: center;
+  color: blueviolet;
 }
 
 td,
