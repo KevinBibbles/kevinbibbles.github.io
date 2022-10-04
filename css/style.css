@@ -35,8 +35,8 @@ img {
   margin: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
-  height: 25px;
+  width: 75%;
+  height: 25%;
   box-shadow: 0px 0px 10px 3px;
   background: orangered;
 }
@@ -79,7 +79,7 @@ img {
   color: #A3CB38;
 }
 
-.my-spotify h2 {
+.my-youtube h2 {
   font-size: 20px;
   border-radius: 20px;
   text-align: left;
@@ -87,15 +87,15 @@ img {
   margin: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
+  width: 400px;
   height: 20px;
   box-shadow: 0px 0px 10px 3px;
-  background: lightgoldenrodyellow;
+  background: orangered;
 }
 
-.my-spotify a {
+.my-youtube a {
   text-decoration: none;
-  color: #483838;
+  color: #A3CB38;
 }
 
 .title {
@@ -127,18 +127,18 @@ th:hover {
   width: 100%;
 }
 
-.ngubah {
+.ubah {
   background-color: #e4d1b9;
 }
 
-.ngubah:hover {
+.ubah:hover {
   background-color: brown;
 }
 
-.ngapus {
+.hapus {
   background-color: #e4d1b9;
 }
 
-.ngapus:hover {
+.hapus:hover {
   background-color: brown;
 }
