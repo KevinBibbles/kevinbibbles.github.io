@@ -1,0 +1,65 @@
+@font-face {
+	font-family: "Times New Roman", Times, serif;
+
+}
+
+body {
+	font-family: "Times New Roman";
+}
+
+.kepala {
+	font-family: "Times New Roman";
+	font-size: 30px;
+}
+
+.legend {
+	color: blueviolet;
+}
+
+select:hover {
+	background-color: royalblue;
+}
+
+option:hover {
+	background-color: royalblue;
+}
+
+input:hover {
+	background-color: royalblue;
+}
+
+textarea:hover {
+	background-color: royalblue;
+}
+
+.rule {
+	margin: 0px 0px 1px 1px;
+	font-size: 30px;
+	color: blueviolet;
+}
+
+.image-headers {
+  width: 100%;
+  height: auto;
+  background-color: royalblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-headers img {
+  width: 100%;
+  height: auto;
+}
+
+.rules {
+  padding-bottom: 1px;
+  color: royalblue;
+  margin: auto;
+}
+
+button a {
+  color: darkred;
+  font-family: "Times New Roman";
+  text-decoration: none;
+}
