@@ -1,0 +1,24 @@
+body {
+  background: url('44738.jpg');
+  font-family: "Franklin Gothic Medium", "Arial Narrow", monospace;
+}
+
+.title {
+  text-align: center;
+}
+
+td,
+th {
+  border: 5px;
+  background-color: burlywood;
+  text-align: center;
+  padding: 15px;
+}
+
+td:hover {
+  background-color: burlywood;
+}
+
+th:hover {
+  background-color: burlywood;
+}
