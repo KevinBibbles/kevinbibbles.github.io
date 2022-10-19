@@ -1,10 +1,10 @@
 body {
-  background: url(wpanime1.JPG);
+  background: url(css/wpanime1.JPG);
 }
 
 @font-face {
   font-family: "Author-DF";
-  src: url(Author-DF.ttf);
+  src: url(css/Author-DF.ttf);
 }
 
 .logo {
