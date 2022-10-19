@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+}
+.kertas {
+    width: 60%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    height: 1000px;
+}
+.Gambar {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.Logo {
+    width: 80px;
+    height: 80px;
+}
+#nama_sekolah {
+    font-size: 11px;
+    margin-top: 0px;
+}
+.kepala_kop {
+    display: flex;
+}
+.stmik {
+    line-height: 40px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #FF0000;
+    letter-spacing: 10px;
+}
+.ikmi_campus {
+    margin-top: 0px;
+}
+.ikmi {
+    font-size: 32px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #0000FF;
+    letter-spacing: 7px;
+}
+.kota {
+    line-height: 29px;
+    font-size:18px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #008800;
+}
+.alamat {
+    margin-top: 0px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.alamat_surat div {
+    letter-spacing: 2px;
+}
+.alamat_surat a {
+    color: #0000FF;
+}
+.akre {
+    display: flex;
+    width : 100%;
+}
+.sk {
+    background-color: #A52A2A;
+    width: 55%;
+    text-align: center;
+    color: white;
+    padding: 2px 0px;
+}
+.akreditasi {
+    width: 45%;
+    background-color: #008000;
+    text-align: center;
+    color: white;
+    padding: 2px 0px;
+}
+.surat {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.surat_tugas {
+    letter-spacing: 3px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.nomor_surat {
+    font-size: 14px;
+}
