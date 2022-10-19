@@ -1,5 +1,5 @@
 body {
-  background: url(css/wpanime1.JPG);
+  background: url(wpanime1.JPG);
 }
 
 @font-face {
@@ -36,6 +36,7 @@ img:hover {
 
 h1 {
   margin: auto;
+  background: firebrick;
 }
 
 h1:hover {
