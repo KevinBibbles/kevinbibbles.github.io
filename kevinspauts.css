@@ -1,5 +1,5 @@
 body {
-  background: url(wpanime1.JPG);
+  background: url(44738.JPG);
 }
 
 @font-face {
@@ -19,9 +19,9 @@ body {
 }
 
 img {
-  margin-top: 30px;
+  margin-top: 15px;
   width: 200px;
-  height: 210px;
+  height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -39,10 +39,6 @@ h1 {
   background: firebrick;
 }
 
-h1:hover {
-  letter-spacing: 2px;
-}
-
 h3 {
   margin: 15px;
   text-align: center;
@@ -52,26 +48,6 @@ h3 {
   margin: 0 0 10px;
   transition: 0.5s;
   background-color: lightyellow;
-}
-
-h3 {
-  margin: 30px 0 10px;
-  transition: 0.5s;
-}
-
-h3:hover {
-  letter-spacing: 2px;
-}
-
-a {
-  color: darkblue;
-  text-decoration: none;
-  transition: 0.5s;
-}
-
-a:hover {
-  text-decoration: blink;
-  letter-spacing: 2px;
 }
 
 .content {
@@ -84,16 +60,29 @@ a:hover {
   background-color: transparent;
   padding: 5px 10px 20px;
   text-align: center;
-  border: 1px
   border-radius: 5px 5px 0 0;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-}
+  -webkit-animation:colorchange 10s infinite alternate;
+  text-shadow: 2px 2px 4px #000000;
+  }
+   @-webkit-keyframes colorchange {
+    0% { color: blue;}
+    10% {color: #8e44ad;}
+    20% {color: #1abc9c;}
+    30% {color: #d35400;}
+    40% {color: pink;}
+    50% {color: #34495e; }
+    60% {color: yellow;}
+    70% {color: #2980b9;}
+    80% {color: #f1c40f;}
+    90% {color: #2980b9;}
+    100% {color: pink;}
+  }
 
 .navigasi {
-  background-color: lightgoldenrodyellow;
   text-align: center;
-  padding: 1px 0;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 2px;
+  background-color: grey;
 }
 
 .menu {
@@ -119,7 +108,7 @@ a:hover {
 .home {
   background-color: antiquewhite;
   font-size: 18px;
-  font-family: Helvetica;
+  font-family: cursive;
   color: royalblue;
   padding: 20px;
   border-left: 1px
@@ -154,30 +143,4 @@ a:hover {
   border: none;
   pointer-events: none;
   cursor: default;
-}
-
-.dropdown {
-  position: absolute;
-  display: inline-block;
-}
-.dropdown-bawah {
-  display: none;
-  background-color: skyblue;
-  min-width: 100px;
-}
-.dropdown-bawah a {
-  font-family: "Times New Roman";
-  color: blue;
-  padding: 5px;
-  text-decoration: none;
-  display: block;
-}
-.dropdown-bawah h3 {
-  color: blue;
-  padding-top: 10px;
-  text-decoration: none;
-  display: block;
-}
-.dropdown:hover .dropdown-bawah {
-  display: block;
 }
