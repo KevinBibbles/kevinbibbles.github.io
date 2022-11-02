@@ -1,3 +1,7 @@
+body {
+  background-color: grey;
+}
+
 @font-face {
   font-family: "Author-DF";
   src: url(css/Author-DF.ttf);
@@ -53,12 +57,15 @@ h3 {
 }
 
 .header {
+  margin-top: 4%;
   background-color: transparent;
-  padding: 5px 10px 20px;
   text-align: center;
-  border-radius: 5px 5px 0 0;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+  font-weight: bold;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  -webkit-animation:colorchange 10s infinite alternate;
+  -webkit-animation:colorchange 15s infinite alternate;
   text-shadow: 2px 2px 4px #000000;
   }
    @-webkit-keyframes colorchange {
@@ -123,7 +130,7 @@ h3 {
 }
 
 .footer {
-  margin-top: 4%;
+  margin-top: 2%;
   background-color: lightgoldenrodyellow;
   text-align: center;
   border: 1px solid #66ee0f;

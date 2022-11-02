@@ -3,6 +3,11 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", monospace;
 }
 
+.hello {
+  text-align: center;
+  background-color: brown;
+}
+
 .title {
   text-align: center;
 }
