@@ -1,32 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    background-image: url(bg.webp);
-    width: 100%;
+    background-color: black;
+    width: 90%;
 }
 
 .pengisi {
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding: 20px;
 }
 
-/* header */
 .header {
     width: 100%;
 }
-/* akhir header */
 
-/* formulir */
 h1 {
     text-align: center;
     margin-top: 30px;
     font-size: 30px;
     font-family: "Trirong", sans-serif;
-    color: rgb(27,118,253);
+    color: blanchedalmond;
     text-shadow: -2px -3px 8px rgba(0,0,0,0.6);
 }
 
@@ -40,7 +32,7 @@ h1:hover {
     font-weight: bold;
     font-size: 20px;
     font-family: "Trirong", sans-serif;
-    color: rgb(27,118,253);
+    color: blanchedalmond;
     text-shadow: -2px -3px 8px rgba(0,0,0,0.6);
 }
 
@@ -55,7 +47,7 @@ ol li {
     font-weight: bold;
     line-height: 20px;
     font-family: "Trirong", sans-serif;
-    color: rgb(27,118,253);
+    color: blanchedalmond;
     text-shadow: -2px -3px 8px rgba(0,0,0,0.6);
 }
 
@@ -65,11 +57,10 @@ ol li:hover {
     transition: .2s;
 }
 
-/* pembungkus2 */
 .pembungkus2 {
     width: 100%;
     margin: auto;
-    background-color: rgb(47,130,253);
+    background-color: blanchedalmond;
     padding: 20px;
     box-sizing: border-box;
     margin-top: 20px;
@@ -77,7 +68,6 @@ ol li:hover {
     font-family: "Trirong", sans-serif;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
 }
-/* akhir pembungkus2 */
 
 .judulform {
     font-size: 27px;
@@ -121,7 +111,7 @@ input[type=file] {
 
 button {
     width: 100%;
-    background-color: rgb(10,88,202);
+    background-color: gray;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -131,15 +121,13 @@ button {
 }
 
 button:hover {
-    background-color: rgb(3, 56, 136);
+    background-color: blanchedalmond;
     transition: .2s;
 }
 
-/* akhir formulir */
 
-/* media query */
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
+    /* SETELAN HP/MOBILE */
     body {
         box-sizing: border-box;
     }
@@ -193,4 +181,3 @@ button:hover {
     }
     
 }
-/* akhir media query */
